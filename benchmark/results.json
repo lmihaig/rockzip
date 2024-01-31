@@ -1,0 +1,183 @@
+{
+  "caragiale.txt": {
+    "initial_size": 231400,
+    "results": {
+      "gzip": {
+        "option_1": { "time": 0.10072980000040843, "compressed_size": 110346 },
+        "option_6": { "time": 0.04265829999712878, "compressed_size": 93929 },
+        "option_9": { "time": 0.046457200001896126, "compressed_size": 93557 }
+      },
+      "bzip2": {
+        "option_1": { "time": 0.08095400000092923, "compressed_size": 81300 },
+        "option_6": { "time": 0.04422379999959958, "compressed_size": 76964 },
+        "option_9": { "time": 0.0437000000019907, "compressed_size": 76964 }
+      },
+      "brotli": {
+        "option_1": { "time": 0.07919930000207387, "compressed_size": 103474 },
+        "option_6": { "time": 0.03925900000103866, "compressed_size": 90073 },
+        "option_9": { "time": 0.056529600002249936, "compressed_size": 88242 }
+      },
+      "snzip": {
+        "option_": { "time": 0.3316779000015231, "compressed_size": 153309 }
+      },
+      "lz4": {
+        "option_1": { "time": 0.0507296999967366, "compressed_size": 155775 },
+        "option_6": { "time": 0.035325500000908505, "compressed_size": 112228 },
+        "option_9": { "time": 0.03688049999982468, "compressed_size": 111698 }
+      },
+      "xz": {
+        "option_1": { "time": 0.0913079000019934, "compressed_size": 92776 },
+        "option_6": { "time": 0.08618819999901461, "compressed_size": 83488 },
+        "option_9": { "time": 0.10179980000248179, "compressed_size": 83488 }
+      },
+      "zstd": {
+        "option_1": { "time": 0.06874819999939064, "compressed_size": 104513 },
+        "option_6": { "time": 0.03547919999982696, "compressed_size": 91106 },
+        "option_9": { "time": 0.03887870000107796, "compressed_size": 90041 }
+      },
+      "lzop": {
+        "option_1": { "time": 0.06565899999986868, "compressed_size": 150723 },
+        "option_6": { "time": 0.031895099997200305, "compressed_size": 149019 },
+        "option_9": { "time": 0.06770540000070469, "compressed_size": 106963 }
+      },
+      "rockzip": {
+        "default": { "time": 653.280496600004, "compressed_size": 151257 }
+      }
+    }
+  },
+  "kennedy.xls": {
+    "initial_size": 1029744,
+    "results": {
+      "gzip": {
+        "option_1": { "time": 0.04290059999766527, "compressed_size": 245037 },
+        "option_6": { "time": 0.057499999998981366, "compressed_size": 206779 },
+        "option_9": { "time": 0.37843939999947906, "compressed_size": 209733 }
+      },
+      "bzip2": {
+        "option_1": { "time": 0.06398769999941578, "compressed_size": 123054 },
+        "option_6": { "time": 0.06761959999857936, "compressed_size": 127629 },
+        "option_9": { "time": 0.0680635999997321, "compressed_size": 130280 }
+      },
+      "brotli": {
+        "option_1": { "time": 0.03265859999737586, "compressed_size": 172037 },
+        "option_6": { "time": 0.05117230000178097, "compressed_size": 69212 },
+        "option_9": { "time": 0.09649970000100438, "compressed_size": 67838 }
+      },
+      "snzip": {
+        "option_": { "time": 0.06115309999950114, "compressed_size": 424702 }
+      },
+      "lz4": {
+        "option_1": { "time": 0.03111720000015339, "compressed_size": 374723 },
+        "option_6": { "time": 0.05539570000109961, "compressed_size": 324481 },
+        "option_9": { "time": 0.09713859999828856, "compressed_size": 324209 }
+      },
+      "xz": {
+        "option_1": { "time": 0.05817360000219196, "compressed_size": 66836 },
+        "option_6": { "time": 0.28149589999884483, "compressed_size": 49116 },
+        "option_9": { "time": 0.28889909999998054, "compressed_size": 49116 }
+      },
+      "zstd": {
+        "option_1": { "time": 0.03406870000253548, "compressed_size": 115395 },
+        "option_6": { "time": 0.043046200000389945, "compressed_size": 107919 },
+        "option_9": { "time": 0.05524630000218167, "compressed_size": 111062 }
+      },
+      "lzop": {
+        "option_1": { "time": 0.03757389999736915, "compressed_size": 363583 },
+        "option_6": { "time": 0.036293000001023756, "compressed_size": 362514 },
+        "option_9": { "time": 0.7259881000027235, "compressed_size": 326304 }
+      },
+      "rockzip": {
+        "default": { "time": 225.2061395299992, "compressed_size": 440060 }
+      }
+    }
+  },
+  "samba.tar": {
+    "initial_size": 21606400,
+    "results": {
+      "gzip": {
+        "option_1": { "time": 0.23927069999990636, "compressed_size": 6347065 },
+        "option_6": { "time": 0.521771700001409, "compressed_size": 5460541 },
+        "option_9": { "time": 0.9079134999992675, "compressed_size": 5408276 }
+      },
+      "bzip2": {
+        "option_1": { "time": 1.138709499999095, "compressed_size": 5081043 },
+        "option_6": { "time": 1.1999462000021595, "compressed_size": 4616601 },
+        "option_9": { "time": 1.247422500000539, "compressed_size": 4549759 }
+      },
+      "brotli": {
+        "option_1": { "time": 0.09738239999933285, "compressed_size": 5645650 },
+        "option_6": { "time": 0.7029182000005676, "compressed_size": 4341890 },
+        "option_9": { "time": 2.3587975000009465, "compressed_size": 4155027 }
+      },
+      "snzip": {
+        "option_": { "time": 0.10560950000217417, "compressed_size": 8012410 }
+      },
+      "lz4": {
+        "option_1": { "time": 0.06605539999873145, "compressed_size": 7721752 },
+        "option_6": { "time": 0.30199999999967986, "compressed_size": 6170368 },
+        "option_9": { "time": 0.443288800001028, "compressed_size": 6151766 }
+      },
+      "xz": {
+        "option_1": { "time": 0.8656469000015932, "compressed_size": 4542840 },
+        "option_6": { "time": 4.895327199999883, "compressed_size": 3787400 },
+        "option_9": { "time": 5.147224399999686, "compressed_size": 3763616 }
+      },
+      "zstd": {
+        "option_1": { "time": 0.07612700000026962, "compressed_size": 5514871 },
+        "option_6": { "time": 0.24514060000001336, "compressed_size": 4597806 },
+        "option_9": { "time": 0.34370769999804907, "compressed_size": 4380008 }
+      },
+      "lzop": {
+        "option_1": { "time": 0.0707455999981903, "compressed_size": 8128030 },
+        "option_6": { "time": 0.07981029999791645, "compressed_size": 8085392 },
+        "option_9": { "time": 1.7639622999995481, "compressed_size": 5993345 }
+      }
+    }
+  },
+  "shakespare.txt": {
+    "initial_size": 5442158,
+    "results": {
+      "gzip": {
+        "option_1": { "time": 0.11206630000015139, "compressed_size": 2524100 },
+        "option_6": { "time": 0.3369667000006302, "compressed_size": 2136499 },
+        "option_9": { "time": 0.45481659999859403, "compressed_size": 2126062 }
+      },
+      "bzip2": {
+        "option_1": { "time": 0.34868070000084117, "compressed_size": 1802426 },
+        "option_6": { "time": 0.3627708000021812, "compressed_size": 1614507 },
+        "option_9": { "time": 0.3753828999979305, "compressed_size": 1587007 }
+      },
+      "brotli": {
+        "option_1": { "time": 0.06429090000165161, "compressed_size": 2308725 },
+        "option_6": { "time": 0.36354579999897396, "compressed_size": 1892942 },
+        "option_9": { "time": 0.7373339000005217, "compressed_size": 1813943 }
+      },
+      "snzip": {
+        "option_": { "time": 0.07696609999766224, "compressed_size": 3473949 }
+      },
+      "lz4": {
+        "option_1": { "time": 0.04530009999871254, "compressed_size": 3528959 },
+        "option_6": { "time": 0.18513150000217138, "compressed_size": 2488548 },
+        "option_9": { "time": 0.2524419000001217, "compressed_size": 2473151 }
+      },
+      "xz": {
+        "option_1": { "time": 0.42183920000024955, "compressed_size": 2057200 },
+        "option_6": { "time": 2.728190199999517, "compressed_size": 1673676 },
+        "option_9": { "time": 2.8035545000020647, "compressed_size": 1673676 }
+      },
+      "zstd": {
+        "option_1": { "time": 0.05209629999808385, "compressed_size": 2413250 },
+        "option_6": { "time": 0.120505899998534, "compressed_size": 1962342 },
+        "option_9": { "time": 0.17767880000246805, "compressed_size": 1901806 }
+      },
+      "lzop": {
+        "option_1": {
+          "time": 0.049201000001630746,
+          "compressed_size": 3457432
+        },
+        "option_6": { "time": 0.04795949999970617, "compressed_size": 3412789 },
+        "option_9": { "time": 0.7737975000018196, "compressed_size": 2462655 }
+      }
+    }
+  }
+}
